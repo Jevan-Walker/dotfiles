@@ -1,0 +1,10 @@
+set clipboard=unnamedplus
+let mapleader = " "
+
+inoremap jk <Esc>
+
+nnoremap B ^
+vnoremap B ^
+
+nnoremap W g_
+vnoremap W g_
