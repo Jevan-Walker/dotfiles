@@ -18,4 +18,28 @@
       "W": "editor::MoveToEndOfLine",
     },
   },
+  {
+    "context": "Pane",
+    "bindings": {
+      "alt-h": "pane::ActivatePreviousItem"
+    }
+  },
+  {
+    "context": "Pane",
+    "unbind": {
+      "alt-left": "pane::ActivatePreviousItem"
+    }
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "alt-l": "pane::ActivateNextItem"
+    }
+  },
+  {
+    "context": "Pane",
+    "unbind": {
+      "alt-right": "pane::ActivateNextItem"
+    }
+  }
 ]
