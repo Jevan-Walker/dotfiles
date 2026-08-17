@@ -1,4 +1,5 @@
 colorscheme habamax
+highlight MatchParen cterm=bold ctermfg=NONE ctermbg=238 guifg=NONE guibg=#444444
 
 syntax on
 filetype plugin indent on
@@ -10,7 +11,6 @@ vnoremap B ^
 nnoremap W g_
 vnoremap W g_
 let mapleader = " "
-
 set mouse=a
 set tabstop=4
 set shiftwidth=4
@@ -22,6 +22,5 @@ set smartcase
 set incsearch
 set autoindent
 set autochdir
-
 
 map gf :e <cfile><CR>
