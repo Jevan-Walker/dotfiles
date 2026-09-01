@@ -69,5 +69,6 @@
     // Search
     "editor.find.autoFindInSelection": "never",
     // Auto indent
-    "editor.autoIndent": "advanced"
+    "editor.autoIndent": "advanced",
+    "workbench.colorTheme": "Ayu Green Dark Bordered"
 }
