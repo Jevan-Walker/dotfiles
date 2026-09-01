@@ -1,0 +1,37 @@
+    "vim.normalModeKeyBindings": [
+        {
+            "before": ["B"],
+            "after": ["^"]
+        },
+        {
+            "before": ["W"],
+            "after": ["g", "_"]
+        },
+        {
+            "before": ["g", "f"],
+            "commands": ["workbench.action.quickOpen"]
+        }
+    ],
+
+    "vim.visualModeKeyBindings": [
+        {
+            "before": ["B"],
+            "after": ["^"]
+        },
+        {
+            "before": ["W"],
+            "after": ["g", "_"]
+        }
+    ],
+
+    // Editor
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+
+    "editor.lineNumbers": "relative",
+
+    // Search
+    "editor.find.autoFindInSelection": "never",
+
+    // Auto indent
+    "editor.autoIndent": "advanced"
