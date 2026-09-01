@@ -69,4 +69,10 @@
     "editor.lineNumbers": "relative",
     // Search
     "editor.find.autoFindInSelection": "never",
+    //font  install jetbrains mono font first
+    "editor.fontFamily": "JetBrains Mono, Consolas, 'Courier New', monospace",
+    "workbench.settings.applyToAllProfiles": [
+        "editor.fontFamily"
+    ],
+    "editor.fontLigatures": true,
 }
