@@ -1,3 +1,4 @@
+// preferences: open user settings (json)
 {
     "zig.zls.enabled": "on",
     "editor.codeActionsOnSave": {},
@@ -68,7 +69,4 @@
     "editor.lineNumbers": "relative",
     // Search
     "editor.find.autoFindInSelection": "never",
-    // Auto indent
-    "editor.autoIndent": "advanced",
-    "workbench.colorTheme": "Ayu Green Dark Bordered"
 }
